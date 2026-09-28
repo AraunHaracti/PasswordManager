@@ -1,0 +1,55 @@
+# ===== Виртуальное окружение =====
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Личные данные и секреты =====
+# Конфиги
+config.ini
+config.json
+config.yaml
+config.yml
+settings.py
+*.cfg
+.env
+.env.*
+!.env.example
+
+# Логи
+*.log
+logs/
+log/
+
+# Данные
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Ключи и сертификаты
+*.pem
+*.key
+*.crt
+secrets/
+credentials.json
+
+# ===== IDE и система =====
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===== Прочее =====
+*.bak
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
